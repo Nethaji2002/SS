@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SS HYDERABAD BIRYANI</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    .centered-header {
+      text-align: center;
+    }
+    .sshead {
+      padding: 20px;
+      width: 97.35%;
+      background-color: red;
+      color: white;
+      border: 2px solid black;
+      position: fixed;
+      top: 0;
+      z-index: 2;
+    }
+    nav {
+      background-color: red;
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-top: 0px;
+      margin-top: 81px;
+    }
+    nav a:hover {
+      color: black;
+    }
+    .gif1 {
+      margin-top: 7px;
+      height: 20px;
+      position: absolute;
+      left: 100px;
+      position: fixed;
+      top: 0px;
+      z-index: 3;
+    }
+    .gif2 {
+      margin-top: 7px;
+      height: 20px;
+      position: absolute;
+      left: 1150px;
+      position: fixed;
+      top: 0px;
+      z-index: 3;
+    }
+    nav a {
+      padding: 20px;
+      margin: 19px;
+      color: white;
+      text-decoration: none;
+      font-size: x-large;
+    }
+    a {
+      padding: 20px;
+      color: white;
+      text-decoration: none;
+      font-size: x-large;
+    }
+
+    .menu3 {
+      margin-top: 20px;
+    }
+    .menubar3 a {
+      color: black;
+    }
+    .menubar3 a:hover {
+      color: white;
+    }
+    .menubar3 button {
+      border-radius: 20px;
+      padding: 5px;
+    }
+    .menubar3 button:hover {
+      background-color: blue;
+      transition: 1.5s;
+    }
+    .menubar3 {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .container {
+      color: white;
+      font-size: 18px;
+      position: relative;
+      text-align: center;
+    }
+    .text {
+      position: absolute;
+      bottom: 200px;
+      left: 670px;
+    }
+
+    /* dum image */
+    .top-image {
+      margin: 0;
+    }
+    figure {
+      margin-left: 100px;
+    }
+
+    /* dumbir3 */
+    .menuheading {
+      margin-left: 220px;
+      margin-bottom: 10px;
+    }
+    .rate-list-1 {
+      padding: 11px;
+      background-color: #f1f1f1;
+      border: 2px solid #dadada;
+      width: 627px;
+      height: 195px;
+      font-size: 30px;
+      line-height: 40px;
+      position: absolute;
+      left: 700px;
+      top: 750px;
+    }
+    .rate-list-2 {
+      padding: 11px;
+      background-color: #f1f1f1;
+      border: 2px solid #dadada;
+      width: 627px;
+      height: 195px;
+      font-size: 30px;
+      line-height: 40px;
+      position: absolute;
+      left: 700px;
+      top: 1085px;
+    }
+    .rate-list-3 {
+      padding: 11px;
+      background-color: #f1f1f1;
+      border: 2px solid #dadada;
+      width: 627px;
+      height: 195px;
+      font-size: 30px;
+      line-height: 40px;
+      position: absolute;
+      left: 700px;
+      top: 1410px;
+    }
+    .rate-list-4 {
+      padding: 11px;
+      background-color: #f1f1f1;
+      border: 2px solid #dadada;
+      width: 627px;
+      height: 195px;
+      font-size: 30px;
+      line-height: 40px;
+      position: absolute;
+      left: 700px;
+      top: 1740px;
+    }
+    .rate-list-5 {
+      padding: 11px;
+      background-color: #f1f1f1;
+      border: 2px solid #dadada;
+      width: 627px;
+      height: 195px;
+      font-size: 30px;
+      line-height: 40px;
+      position: absolute;
+      left: 700px;
+      top: 2070px;
+    }
+    .rate-list-6 {
+      padding: 11px;
+      background-color: #f1f1f1;
+      border: 2px solid #dadada;
+      width: 627px;
+      height: 195px;
+      font-size: 30px;
+      line-height: 40px;
+      position: absolute;
+      left: 700px;
+      top: 2440px;
+    }
+
+    hr {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .rate-list-1 input {
+      width: 26px;
+      height: 26px;
+      cursor: pointer;
+    }
+    .rate-list-2 input {
+      width: 26px;
+      height: 26px;
+      cursor: pointer;
+    }
+    .rate-list-3 input {
+      width: 26px;
+      height: 26px;
+      cursor: pointer;
+    }
+    .rate-list-4 input {
+      width: 26px;
+      height: 26px;
+      cursor: pointer;
+    }
+    .rate-list-5 input {
+      width: 26px;
+      height: 26px;
+      cursor: pointer;
+    }
+    .rate-list-6 input {
+      width: 26px;
+      height: 26px;
+      cursor: pointer;
+    }
+
+    footer {
+      padding: 30px;
+      background-color: black;
+      color: white;
+    }
+  </style>
+  <body>
+      <header class="centered-header">
+        <h1 class="sshead">SS HYDERABAD BIRYANI</h1>
+        <!-- <hr>css -->
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="2about.html">ABOUT</a>
+          <a href="3menu.html">MENU</a>
+          <a href="4gallery.html">GALLERY</a>
+          <a href="5contact.html">CONTACT</a>
+        </nav>
+      </header>
+      <figure class="gif1">
+        <img src="image/gif.gif" alt="" width="70px" />
+      </figure>
+      <figure class="gif2">
+        <img src="image/gif.gif" alt="" width="70px" />
+      </figure>
+
+    <main>
+      <div class="container">
+        <figure class="top-image">
+          <img src="image/gallery.jpg" alt="" width="100%" />
+        </figure>
+        <!-- <center> -->
+        <h1 class="menu3 text">MENU</h1>
+        <!-- </center> -->
+      </div>
+      <article>
+        <br />
+        <!-- <center> -->
+        <div class="menubar3">
+          <button><a href="#dumid">Dum Biryani</a></button>
+          <button><a href="#arabianid">Arabian Grill</a></button>
+          <button><a href="#tandooriid">Tandoori</a></button>
+          <button><a href="#chineseid">Chinese Noodles</a></button>
+          <button><a href="#vegid">Veg Varieties</a></button>
+          <button><a href="#eggid">Egg Special</a></button>
+        </div>
+        <!-- </center> -->
+
+        <!-- dum -->
+        <hr />
+        <div id="dumid">
+          <h2 class="menuheading">DUM BIRYANI</h2>
+          <figure>
+            <img src="image/dum.png" alt="" id="dumid" width="400px" />
+          </figure>
+
+          <div class="rate-list-1">
+            <form action="">
+              <input type="checkbox" id="dum1" name="dum1" />
+              <label for="dum1"
+                >Hyd.Chicken Dum Biryani.....................&#x20B9;
+                250.00</label
+              ><br />
+              <input type="checkbox" id="dum2" name="dum1" />
+              <label for="dum2"
+                >Hyd.Mutton Dum Biryani.......................&#x20B9;
+                350.00</label
+              ><br />
+              <input type="checkbox" id="dum3" name="dum1" />
+              <label for="dum3"
+                >Kushka....................................................&#x20B9;
+                150.00</label
+              ><br />
+              <input type="checkbox" id="dum4" name="dum1" />
+              <label for="dum4"
+                >Egg
+                Biryani.............................................&#x20B9;
+                170.00</label
+              ><br />
+              <input type="checkbox" id="dum5" name="dum1" />
+              <label for="dum5"
+                >Prawn Biryani.........................................&#x20B9;
+                270.00</label
+              ><br />
+            </form>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <!-- Arabian Grill -->
+        <div id="arabianid">
+          <h2 class="menuheading">ARABIAN GRILL</h2>
+          <figure>
+            <img src="image/arb_grill.jpg" alt="" width="400px" />
+          </figure>
+
+          <div class="rate-list-2">
+            <form action="">
+              <input type="checkbox" id="grill1" name="dum1" />
+              <label for="grill1"
+                >Grill Chicken Full...................................&#x20B9;
+                450.00</label
+              ><br />
+              <input type="checkbox" id="grill2" name="dum1" />
+              <label for="grill2"
+                >Grill Chicken Half...................................&#x20B9;
+                270.00</label
+              ><br />
+              <input type="checkbox" id="grill3" name="dum1" />
+              <label for="grill3"
+                >Pepper Grill Chicken Full.......................&#x20B9;
+                460.00</label
+              ><br />
+              <input type="checkbox" id="grill4" name="dum1" />
+              <label for="grill4"
+                >Shawarma Roll........................................&#x20B9;
+                140.00</label
+              ><br />
+              <input type="checkbox" id="grill5" name="dum1" />
+              <label for="grill5"
+                >Plate Shawarma.......................................&#x20B9;
+                120.00</label
+              ><br />
+            </form>
+          </div>
+        </div>
+        <hr />
+
+        <!-- Tandoori -->
+        <div id="tandooriid">
+          <h2 class="menuheading">TANDOORI</h2>
+          <figure>
+            <img src="image/tandoori.jpg" alt="" width="400px" />
+          </figure>
+
+          <div class="rate-list-3">
+            <form action="">
+              <input type="checkbox" id="tan1" name="dum1" />
+              <label for="tan1"
+                >Hyd. Tandoori Chicken Full....................&#x20B9;
+                430.00</label
+              ><br />
+              <input type="checkbox" id="tan2" name="dum1" />
+              <label for="tan2"
+                >Hyd. Tandoori Chicken Quarter..............&#x20B9;
+                150.00</label
+              ><br />
+              <input type="checkbox" id="tan3" name="dum1" />
+              <label for="tan3"
+                >Chicken Tikka 6 Pieces (BL)..................&#x20B9;
+                270.00</label
+              ><br />
+              <input type="checkbox" id="tan4" name="dum1" />
+              <label for="tan4"
+                >Kalmi Kabab (2Pcs)................................&#x20B9;
+                240.00</label
+              ><br />
+              <input type="checkbox" id="tan5" name="dum1" />
+              <label for="tan5"
+                >Afghani Chicken Full..............................&#x20B9;
+                420.00</label
+              ><br />
+            </form>
+          </div>
+        </div>
+        <hr />
+
+        <!-- Chinese Noodles -->
+        <div id="chineseid">
+          <h2 class="menuheading">CHINESE NOODLES</h2>
+          <figure>
+            <img src="image/noodles.png" alt="" width="400px" />
+          </figure>
+
+          <div class="rate-list-4">
+            <form action="">
+              <input type="checkbox" id="tan1" name="dum1" />
+              <label for="tan1"
+                >Chicken Noodles.....................................&#x20B9;
+                210.00</label
+              ><br />
+              <input type="checkbox" id="tan2" name="dum1" />
+              <label for="tan2"
+                >Mutton Noodles.......................................&#x20B9;
+                320.00</label
+              ><br />
+              <input type="checkbox" id="tan3" name="dum1" />
+              <label for="tan3"
+                >Prawn Noodles........................................&#x20B9;
+                250.00</label
+              ><br />
+              <input type="checkbox" id="tan4" name="dum1" />
+              <label for="tan4"
+                >Egg Noodles............................................&#x20B9;
+                190.00</label
+              ><br />
+              <input type="checkbox" id="tan5" name="dum1" />
+              <label for="tan5"
+                >Veg. Noodles...........................................&#x20B9;
+                180.00</label
+              ><br />
+            </form>
+          </div>
+        </div>
+        <hr />
+
+        <!-- Veg Varieties -->
+        <div id="vegid">
+          <h2 class="menuheading">VEG VARIETIES</h2>
+          <figure>
+            <img src="image/vegv.jpg" alt="" width="400px" />
+          </figure>
+
+          <div class="rate-list-5">
+            <form action="">
+              <input type="checkbox" id="veg1" name="dum1" />
+              <label for="veg1"
+                >Gobi Manchurian....................................&#x20B9;
+                200.00</label
+              ><br />
+              <input type="checkbox" id="veg2" name="dum1" />
+              <label for="veg2"
+                >Gobi
+                65....................................................&#x20B9;
+                190.00</label
+              ><br />
+              <input type="checkbox" id="veg3" name="dum1" />
+              <label for="veg3"
+                >Paneer
+                65.................................................&#x20B9;
+                220.00</label
+              ><br />
+              <input type="checkbox" id="veg4" name="dum1" />
+              <label for="veg4"
+                >Paneer
+                Tikka............................................&#x20B9;
+                210.00</label
+              ><br />
+              <input type="checkbox" id="vg5" name="dum1" />
+              <label for="veg5"
+                >Mushroom 65..........................................&#x20B9;
+                210.00</label
+              ><br />
+            </form>
+          </div>
+        </div>
+        <hr />
+
+        <!-- Egg Special -->
+        <div id="eggid">
+          <h2 class="menuheading">EGG SPECIAL</h2>
+          <figure>
+            <img src="image/egg.jpg" alt="" width="400px" />
+          </figure>
+
+          <div class="rate-list-6">
+            <form action="">
+              <input type="checkbox" id="egg1" name="dum1" />
+              <label for="egg1"
+                >Egg
+                Masala..............................................&#x20B9;
+                200.00</label
+              ><br />
+              <input type="checkbox" id="egg2" name="dum1" />
+              <label for="egg2"
+                >Egg
+                Chilly...............................................&#x20B9;
+                190.00</label
+              ><br />
+              <input type="checkbox" id="egg3" name="dum1" />
+              <label for="egg3">
+                Egg
+                Rice...................................................&#x20B9;110.00</label
+              >
+              <br />
+              <input type="checkbox" id="egg4" name="dum1" />
+              <label for="egg4">
+                Egg
+                Dosa..................................................&#x20B9;150.00</label
+              >
+              <br />
+              <input type="checkbox" id="egg5" name="dum1" />
+              <label for="egg5">
+                Egg
+                Special...............................................&#x20B9;110.00</label
+              >
+              <br />
+
+              <label for="submit"></label>
+              <!-- <input type="submit" id="submit" name="submit" /> -->
+            </form>
+          </div>
+        </div>
+      </article>
+    </main>
+    <!-- <hr /> -->
+    <footer>
+      <center>
+        <h5>
+          &copy; 2024 SS Hyderabad Biryani . All Rights Reserved. Designed by
+          Nethaji
+        </h5>
+      </center>
+    </footer>
+  </body>
+</html>
